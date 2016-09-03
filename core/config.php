@@ -11,7 +11,7 @@ defined('INDEX_DIR') OR exit('Ocrend software says .i.');
 //------------------------------------------------
 
 # Timezone DOC http://php.net/manual/es/timezones.php
-date_default_timezone_set('America/Caracas');
+date_default_timezone_set('America/Lima');
 
 //------------------------------------------------
 
@@ -37,7 +37,7 @@ define('DATABASE', array(
   'host' => 'localhost',
   'user' => 'root',
   'pass' => '',
-  'name' => 'ocrend',
+  'name' => 'mplcdb',
   'port' => 1521,
   'protocol' => 'TCP',
   'motor' => 'mysql'
@@ -50,13 +50,13 @@ define('DATABASE', array(
   * @example "/" si para acceder al framework colocamos http://url.com en la URL, ó http://localhost
   * @example "/Ocrend-Framework/" si para acceder al framework colocamos http://url.com/Ocrend-Framework, ó http://localhost/Ocrend-Framework/
 */
-define('__ROOT__', '/Ocrend-Framework/');
+define('__ROOT__', '/mplc_admin/');
 
 //------------------------------------------------
 
 # Constantes fundamentales
-define('URL', 'http://localhost/Ocrend-Framework/');
-define('APP', 'Ocrend Framework');
+define('URL', 'http://localhost/mplc_admin/');
+define('APP', 'MPLC | Admin');
 
 //------------------------------------------------
 
